@@ -125,8 +125,8 @@
 
 /* Template section  */
 #template{
-    margin: 27px;
-    margin: 27px;
+    /* margin: 27px;
+    margin: 27px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -218,7 +218,7 @@ footer{
 #about-us{
     padding: 20px 20px;
     margin: 0px;
-    background-color: #b0dbff;
+    background-color: ##e8e9e9;
 }
 
 .aboutUs-box{
@@ -226,10 +226,14 @@ footer{
 }
 
 .aboutUs-box p{
-    padding: 2px;
+    padding: 6px;
+    /* margin: auto; */
+    display: table;
+    margin: auto;
 }
 
 .h1-primary3{
     padding: 2px;
     margin: 2px;
+    text-decoration: underline;
 }
