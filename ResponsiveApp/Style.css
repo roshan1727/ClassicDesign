@@ -94,13 +94,13 @@
     text-align: center;
 }
 .h1-primary2{
-    font-size: 4rem;
+    font-size: 2.4rem;
     padding: 17px;
     margin-top: 80px;
     text-align: center;
 }
 .h2-secondary{
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 17px;
     text-align: center;
 }
@@ -126,7 +126,9 @@
 /* Template section  */
 #template{
     margin: 27px;
+    margin: 27px;
     display: flex;
+    justify-content: space-evenly;
 }
 #template .box{
     border: 2px solid brown;
@@ -211,4 +213,23 @@ footer{
 
 .form-group{
     margin-bottom: 1rem;
+}
+
+#about-us{
+    padding: 20px 20px;
+    margin: 0px;
+    background-color: #b0dbff;
+}
+
+.aboutUs-box{
+    padding: 2px;
+}
+
+.aboutUs-box p{
+    padding: 2px;
+}
+
+.h1-primary3{
+    padding: 2px;
+    margin: 2px;
 }
