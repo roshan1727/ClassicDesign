@@ -1,0 +1,214 @@
+/* CSS defult featurs */
+*{
+    margin:0;
+    padding:0;
+    /* background: #b0dbff; */
+}
+
+/* CSS Variable */
+:root{
+    --navbar-height:100px;
+}
+
+/* Lets Create NAvigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: '';
+    background-color: burlywood;
+    position: absolute;
+    height: 760px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8
+}
+/* logo and image  */
+#logo{
+    margin: 0px 15px;
+    height: 61px;
+}
+#logo img{
+    height: 50px;
+    width: 75px;
+    margin: 0px 0px;
+}
+#navbar{
+    position: relative;
+}
+
+/* list styling */
+#navbar ul{
+    display: flex; 
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#navbar ul li a{
+    color: rgb(56, 39, 18);
+  display: block;
+  padding: 8px 12px;
+  border-radius: 17px;
+  text-decoration: none;
+} 
+#navbar ul li a:hover{
+    color: rgb(19, 142, 199);
+    background-color: rgb(109, 80, 80);
+}
+
+/* To edit home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 135px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'PT Serif', serif; */
+}
+
+#home::before{
+    content: '';
+    background: url(https://p1.pxfuel.com/preview/838/387/680/feng-shui-zen-stones-texture.jpg) no-repeat center/cover;
+    position: absolute;
+    height: 514px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+
+#home p{
+    font-size: 1.5rem;
+}
+/* utility class */
+.h1-primary{
+    font-size: 4rem;
+    padding: 17px;
+    /* margin-top: 80px; */
+    text-align: center;
+}
+.h1-primary2{
+    font-size: 4rem;
+    padding: 17px;
+    margin-top: 80px;
+    text-align: center;
+}
+.h2-secondary{
+    font-size: 2rem;
+    padding: 17px;
+    text-align: center;
+}
+
+
+.btn{
+    padding: 27px 65px;
+    border-radius: 41px;
+    border: 2px solid #04baff;
+    margin: 17px;
+    width: 360px;
+    color: lightslategrey;
+    background: cornflowerblue;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: lightslategrey;
+    color: cornflowerblue;
+}
+
+/* Template section  */
+#template{
+    margin: 27px;
+    display: flex;
+}
+#template .box{
+    border: 2px solid brown;
+    padding: 12px;
+    margin: 9px;
+    border-radius: 23px;
+    background: #e8e9e9;
+}
+
+#template .box img{
+    height: 125px;
+    width: 260px;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* contact section  */
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background-image: url(https://c1.wallpaperflare.com/preview/551/930/440/contact-us-contact-call-us-phone-communication.jpg);
+}
+
+.center{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white; 
+    padding: 8px 12px;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 27px;
+}
+
+#contact-box input{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.4rem;
+}
+
+.btns{
+    padding: 16px 85px;
+    border-radius: 41px;
+    border: 2px solid #04baff;
+    margin: 22px 76px;
+    width: 275px;
+    color: lightslategrey;
+    background: cornflowerblue;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btns:hover{
+    background: lightslategrey;
+    color: cornflowerblue;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
