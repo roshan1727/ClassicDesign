@@ -14,12 +14,13 @@
 #navbar{
     display: flex;
     align-items: center;
+    position: relative;
 }
 #navbar::before{
     content: '';
     background-color: burlywood;
     position: absolute;
-    height: 760px;
+    height: 100%;
     width: 100%;
     z-index: -1;
     opacity: .8
@@ -50,11 +51,12 @@
 }
 
 #navbar ul li a{
-    color: rgb(56, 39, 18);
-  display: block;
-  padding: 8px 12px;
-  border-radius: 17px;
-  text-decoration: none;
+    color: rgb(219 83 74);
+    display: block;
+    padding: 0px 12px;
+    margin: 0px 2px;
+    border-radius: 47px;
+    text-decoration: none;
 } 
 #navbar ul li a:hover{
     color: rgb(19, 142, 199);
@@ -74,8 +76,8 @@
 
 #home::before{
     content: '';
-    background: url(https://p1.pxfuel.com/preview/838/387/680/feng-shui-zen-stones-texture.jpg) no-repeat center/cover;
     position: absolute;
+    background: url(https://p1.pxfuel.com/preview/838/387/680/feng-shui-zen-stones-texture.jpg) no-repeat center/cover;
     height: 514px;
     width: 100%;
     z-index: -1;
@@ -89,6 +91,12 @@
 /* utility class */
 .h1-primary{
     font-size: 4rem;
+    padding: 17px;
+    /* margin-top: 80px; */
+    text-align: center;
+}
+.h1-primary3{
+    font-size: 2.4rem;
     padding: 17px;
     /* margin-top: 80px; */
     text-align: center;
@@ -128,7 +136,15 @@
     /* margin: 27px;
     margin: 27px; */
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content:space-around;
+}
+#template2{
+    /* margin: 27px;
+    margin: 27px; */
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 35px;
 }
 #template .box{
     border: 2px solid brown;
@@ -138,13 +154,29 @@
     background: #e8e9e9;
 }
 
+#template2 .box{
+    border: 2px solid brown;
+    padding: 12px;
+    margin: 9px;
+    border-radius: 23px;
+    background: #e8e9e9;
+}
+
 #template .box img{
-    height: 125px;
-    width: 260px;
+    height: 142px;
+    width: 350px;
     margin: auto;
     display: block;
     border-radius: 8px;
 }
+#template2 .box img{
+    height: 142px;
+    width: 350px;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+}
+
 
 /* contact section  */
 
@@ -198,7 +230,7 @@ footer{
     padding: 16px 85px;
     border-radius: 41px;
     border: 2px solid #04baff;
-    margin: 22px 76px;
+    margin: 36px 200px;
     width: 275px;
     color: lightslategrey;
     background: cornflowerblue;
