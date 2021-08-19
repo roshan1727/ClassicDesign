@@ -126,6 +126,11 @@
     cursor: pointer;
 }
 
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
 .btn:hover{
     background: lightslategrey;
     color: cornflowerblue;
