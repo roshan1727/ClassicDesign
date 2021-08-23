@@ -2,6 +2,7 @@
 *{
     margin:0;
     padding:0;
+    scrollbar-color: yellow;;
     /* background: #b0dbff; */
 }
 
@@ -274,3 +275,8 @@ footer{
     margin: 2px;
     text-decoration: underline;
 }
+
+/* 
+h1{
+    text-transform: uppercase-first-letter;
+} */
