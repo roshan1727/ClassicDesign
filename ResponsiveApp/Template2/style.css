@@ -1,0 +1,66 @@
+.my_nav{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.8);
+    background-color: #ffffff57 !important;
+
+}
+
+.container1{
+   background-image: url(../Assert/web-1012467_1920.jpg) ;
+   background-size: cover;
+   padding-top: 100px;
+   padding-bottom: 75px;
+}
+
+.page-header{
+    background-image: url(../Assert/web-1012467_1920.jpg) ;
+    background-size: cover;
+    padding-top: 600px;
+    padding-bottom: 55px;
+}
+
+.header-text-holder,.subscribe-holder{
+    text-align: center;
+    color:white;
+}
+.defult-header-text-holder{
+    color: white;
+}
+.defult-header-text-holder h1{
+    font-size: 2rem;
+}
+
+.home-body-content,.defult-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.defult-body-content .list-group .list-group-item h3{
+    font-size: 1.3rem;
+}
+.defult-body-content .list-group a{
+    color: black;
+    padding-top: 20px;
+}
+.home-body-content .my_card{
+    margin-bottom: 26px;
+    transition-duration: 0.5s;
+}
+
+.my_card h3{
+    font-size: 1.2rem;
+}
+
+.my_card:hover{
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    transition-duration: 0.5s;
+}
+
+footer.main-footer{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color: white;
+    background-color: black;
+}
+footer.main-footer p{
+    margin: 0px;
+}
