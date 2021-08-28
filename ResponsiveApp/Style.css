@@ -78,23 +78,31 @@
 #home::before{
     content: '';
     position: absolute;
-    background: url(https://p1.pxfuel.com/preview/838/387/680/feng-shui-zen-stones-texture.jpg) no-repeat center/cover;
+    background: url(https://cdn.pixabay.com/photo/2018/02/06/18/54/travel-3135436_1280.jpg) no-repeat center/cover;
     height: 514px;
     width: 100%;
     z-index: -1;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 
-#home p{
-    font-size: 1.5rem;
-}
+
 /* utility class */
 .h1-primary{
     font-size: 4rem;
     padding: 17px;
     /* margin-top: 80px; */
     text-align: center;
+    color: seashell;
+}
+
+#home p{
+   
+    font-size: 1.7rem;
+    color: rgb(7 255 209);
+    text-align: center;
+    line-height: 1.4;
+
 }
 .h1-primary3{
     font-size: 2.4rem;
@@ -107,6 +115,7 @@
     padding: 17px;
     margin-top: 80px;
     text-align: center;
+    text-decoration: underline;
 }
 .h2-secondary{
     font-size: 1.4rem;

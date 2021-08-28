@@ -35,3 +35,39 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,113,220,1) 17%, rg
 .feature-holder p{
     font-size: 14px;
 }
+
+
+section.online-courses,.classroom-training {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.online-courses-text-widget,.classroom-courses-text-widget {
+    text-align: center;
+}
+.online-courses-text-widget h2 ,.classroom-courses-text-widget h2{
+    font-size: 1.2rem;
+}
+
+.online-courses-text-widget p,.classroom-courses-text-widget p{
+    /* text-align: center; */
+    font-size: 14px;
+}
+
+.online-course-card h3{
+    font-size: 1.2rem;
+}
+
+.online-course-card .card-text{
+    font-size: 14px;
+}
+
+.online-course-card{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.classroom-training{
+    background-color: whitesmoke;
+    justify-content: center;
+}
