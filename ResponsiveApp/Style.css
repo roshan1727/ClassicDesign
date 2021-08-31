@@ -93,13 +93,13 @@
     padding: 17px;
     /* margin-top: 80px; */
     text-align: center;
-    color: seashell;
+    color: rgb(7 255 209);
 }
 
 #home p{
-   
+    
     font-size: 1.7rem;
-    color: rgb(7 255 209);
+    color: seashell;
     text-align: center;
     line-height: 1.4;
 

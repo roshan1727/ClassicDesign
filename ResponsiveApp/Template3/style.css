@@ -37,19 +37,19 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,113,220,1) 17%, rg
 }
 
 
-section.online-courses,.classroom-training {
+section.online-courses,.classroom-training,.reviews-slider,.page-content {
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-.online-courses-text-widget,.classroom-courses-text-widget {
+.online-courses-text-widget,.classroom-courses-text-widget,.review-text-widget {
     text-align: center;
 }
-.online-courses-text-widget h2 ,.classroom-courses-text-widget h2{
+.online-courses-text-widget h2 ,.classroom-courses-text-widget h2,.review-text-widget h2{
     font-size: 1.2rem;
 }
 
-.online-courses-text-widget p,.classroom-courses-text-widget p{
+.online-courses-text-widget p,.classroom-courses-text-widget p,.review-text-widget p{
     /* text-align: center; */
     font-size: 14px;
 }
@@ -62,7 +62,7 @@ section.online-courses,.classroom-training {
     font-size: 14px;
 }
 
-.online-course-card{
+.online-course-card,.review-text-widget{
     text-align: center;
     margin-bottom: 25px;
 }
@@ -71,3 +71,90 @@ section.online-courses,.classroom-training {
     background-color: whitesmoke;
     justify-content: center;
 }
+.reviews-slider ,.page-content{
+    background-color: rgba(220, 220, 220, 0.849);
+}
+
+.course-list-item{
+    color: black;
+    font-size: small;
+    padding-top: 30px;
+}
+
+.review-content li .card{
+    text-align: center;
+}
+
+.review-content li .card img{
+    margin-bottom: 15px;
+}
+.review-content li,.card,.card-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.star{
+    color: orange;
+    font-size: 16px;
+}
+
+.review-content li .card .card-text{
+    font-size: 14px;
+}
+
+.footer-main{
+    background-color:black;
+    color:white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.foot-widget{
+    margin-bottom: 25px;
+}
+
+.foot-widget h5{
+    font-size: 16px;
+}
+
+.foot-widget ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.foot-widget ul li a{
+    color:gainsboro;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+address h2{
+    font-size: 20px;
+}
+
+address p{
+font-size: 14px;
+}
+
+.copy{
+    padding-top:15px;
+    padding-bottom: 15px;
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+}
+.copy p{
+    margin: 0px;
+}
+
+.google-map{
+    padding-top: 56px;
+}
+
+.card-body {
+    background: rgb(247 247 247);
+}
+

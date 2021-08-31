@@ -109,24 +109,24 @@
             Contact Us
         </h1>
         <div id="contact-box">
-            <form action="">
+            <form action="connect.php" method="POST">
                 <div class="form-group">
                     <label for="Name">Name :</label>
-                    <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+                    <input type="text" name="username" id="Name" placeholder="Enter Your Name" required>
                 </div>
                 <div class="form-group">
                     <label for="Email">Email :</label>
-                    <input type="email" name="Name" id="Email" placeholder="Enter Your Email id">
+                    <input type="email" name="email" id="Email" placeholder="Enter Your Email id" required>
                 </div>
                 <div class="form-group">
                     <label for="Phone">Phone Number :</label>
-                    <input type="Phone" name="Name" id="Phone" placeholder="Enter Your Phone Number">
+                    <input type="Phone" name="phone" id="Phone" placeholder="Enter Your Phone Number" required>
                 </div>
                 <div class="form-group">
                     <label for="DD">Design details</label>
-                    <input type="text" name="Name" id="DD" placeholder="Enter Your Design details">
+                    <input type="text" name="designdetails" id="DD" placeholder="Enter Your Design details" required>
                 </div>
-                <button class="btns">Register</button>
+                <button class="btns" name=registerButton>Register</button>
             </form>
         </div>
     </section>
