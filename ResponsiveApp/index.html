@@ -10,6 +10,7 @@
     <link rel="stylesheet" media="screen and (max-width :1173px )" href="phone.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
 </head>
 
@@ -28,7 +29,7 @@
         </ul>
     </nav>
     <section id="home">
-        <h1 class="h1-primary">
+        <h1 class="h1-primary w3-animate-fading" style="transition: fade-in;">
             Classic Designs
         </h1>
         <p>
@@ -112,21 +113,21 @@
             <form action="connect.php" method="POST">
                 <div class="form-group">
                     <label for="Name">Name :</label>
-                    <input type="text" name="username" id="Name" placeholder="Enter Your Name" required>
+                    <input type="text" name="name"  placeholder="Enter Your Name" >
                 </div>
                 <div class="form-group">
                     <label for="Email">Email :</label>
-                    <input type="email" name="email" id="Email" placeholder="Enter Your Email id" required>
+                    <input type="email" name="email"  placeholder="Enter Your Email id" >
                 </div>
                 <div class="form-group">
                     <label for="Phone">Phone Number :</label>
-                    <input type="Phone" name="phone" id="Phone" placeholder="Enter Your Phone Number" required>
+                    <input type="Phone" name="phone"  placeholder="Enter Your Phone Number" >
                 </div>
                 <div class="form-group">
                     <label for="DD">Design details</label>
-                    <input type="text" name="designdetails" id="DD" placeholder="Enter Your Design details" required>
+                    <input type="text" name="design" placeholder="Enter Your Design details" >
                 </div>
-                <button class="btns" name=registerButton>Register</button>
+                <button class="btns" name="Register" >Register</button>
             </form>
         </div>
     </section>

@@ -79,7 +79,7 @@
     content: '';
     position: absolute;
     background: url(https://cdn.pixabay.com/photo/2018/02/06/18/54/travel-3135436_1280.jpg) no-repeat center/cover;
-    height: 514px;
+    height: 620px;
     width: 100%;
     z-index: -1;
     opacity: 0.8;
@@ -147,11 +147,28 @@
 }
 
 /* Template section  */
+
+.box{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.box:hover{
+    zoom: 20px;
+    box-sizing: 50%;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0,.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+
 #template{
     /* margin: 27px;
     margin: 27px; */
     display: flex;
     /* justify-content: space-evenly; */
+    margin-bottom: 35px;
     justify-content:space-around;
 }
 #template2{
